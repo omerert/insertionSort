@@ -1,9 +1,8 @@
-var x : [String] = []
+var z : [String] = []
 while let line = readLine() {
-    a.append(line)
+    z.append(line)
 }
-var a = x
-print("Pass: \(0), Swaps: \(0)/\(0), Array: \(a)")
+var a = z
 var tswap = 0
 for x in 1..<a.count {
     var y = x
@@ -17,6 +16,6 @@ for x in 1..<a.count {
     }
     tswap += swap
     a[y] = current                      // 2
-    print("Pass: \(x), Swaps: \(swap)/\(tswap), Array: \(a)")
+
 }
 
